@@ -1,3 +1,12 @@
 .App {
   min-height: 100%;
 }
+
+.parent-card-div {
+display: flex;
+flex-direction: column;
+}
+
+.child-card-div {
+display: flex;
+}
