@@ -13,7 +13,7 @@ function App() {
       <div className='child-card-div'>
       <Card frontSideTitle="London"  backSideTitle="Buckingham Palace" frontSideImage={"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Coat_of_Arms_of_The_City_of_London.svg/330px-Coat_of_Arms_of_The_City_of_London.svg.png"} backSideImage={"https://cdn.pixabay.com/photo/2016/10/05/02/08/buckingham-1715907_1280.jpg"} backSideText="London Info Here"/>
       <Card frontSideTitle="Manchester" backSideTitle="Old Trafford" frontSideImage={"https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Arms_of_the_Manchester_City_Council.svg/1200px-Arms_of_the_Manchester_City_Council.svg.png"} backSideImage={"https://www.si.com/.image/t_share/MTkxMTk2ODg3MjA5MzU0NDc1/imago1011329909h.jpg"}backSideText="Manchester Info Here"/>
-      <Card frontSideTitle="Liverpool" backSideTitle="Royal Albert Dock" frontSideImage={"https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Coat_of_arms_of_Liverpool_City_Council.svg/939px-Coat_of_arms_of_Liverpool_City_Council.svg.png"} backSideImage={"https://lh5.googleusercontent.com/p/AF1QipPCky7Qn3W8ETrnvaNUQgENmflEcXrS0i-43wvs=w243-h174-n-k-no-nu"}backSideText="Liverpool Info Here"/>
+      <Card frontSideTitle="Liverpool" backSideTitle="Liver Building" frontSideImage={"https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Coat_of_arms_of_Liverpool_City_Council.svg/939px-Coat_of_arms_of_Liverpool_City_Council.svg.png"} backSideImage={"https://upload.wikimedia.org/wikipedia/commons/e/ea/The_Royal_Liver_Buildings_-_geograph.org.uk_-_526323.jpg"}backSideText="Liverpool Info Here"/>
       </div>
 
       <div className='child-card-div'>
