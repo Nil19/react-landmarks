@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>Landmarks</h1>
-      <h2>Click on the card to learn more about the landmark</h2>
+      <h2>Click on the card to learn about a landmark in that city </h2>
 
       <div className='parent-card-div'>
 

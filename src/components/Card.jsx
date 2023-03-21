@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import "./Card.css"
 
-export default function Card({ frontSideTitle, backSideTitle, frontSideImage, backSideImage }) {
+export default function Card({ frontSideTitle, backSideTitle, frontSideImage, backSideImage, backSideText }) {
   const [isFront, changeFace] = useState(true);
 
   function handleClick() {
@@ -19,9 +19,9 @@ export default function Card({ frontSideTitle, backSideTitle, frontSideImage, ba
   return (
     <div className={classList} onClick={handleClick}>
       {text}
-      <img src={isFront ? frontSideImage : backSideImage} width="200px"/>
+      <img src={isFront ? frontSideImage : backSideImage} />
 
-      {!isFront ? <p>Example text here</p> : null}
+      {!isFront ? backSideText : null}
     </div>
   );
 }
