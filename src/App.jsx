@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <h1>Landmarks</h1>
       <h2>Click on the card to learn about a landmark in that city </h2>
-
+    
       <div className='parent-card-div'>
 
       <div className='child-card-div'>
