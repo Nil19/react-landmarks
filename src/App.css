@@ -1,5 +1,6 @@
 .App {
   min-height: 100%;
+  perspective: 1000px;
 }
 
 .parent-card-div {
