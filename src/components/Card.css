@@ -8,6 +8,8 @@
     margin: 10px; 
     cursor: pointer;
     user-select: none;
+    transition: 1000ms;
+    transform-style: preserve-3d;
 }
 
 .flash-card.front {
@@ -20,6 +22,7 @@ margin: 2rem;
 
 .flash-card.back {
     background-color:rgb(15, 109, 20);
+    transform: rotateY(360deg);
     color: white;
     font-size: 16px;
     padding: 2rem;
